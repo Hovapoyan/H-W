@@ -1,23 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.35229.62
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "homework", "homework\homework.pyproj", "{1DC5AE69-A30B-492D-953C-DD6B14A3FEF1}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1DC5AE69-A30B-492D-953C-DD6B14A3FEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DC5AE69-A30B-492D-953C-DD6B14A3FEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4C63330F-85D9-4068-A166-3223A7C1E10D}
-	EndGlobalSection
-EndGlobal
+name=input("please enter your first name")
+name=name.lower()
+name=name.capitalize()
+surname=input("please enter your last name")
+surname=surname.lower()
+surname=surname.capitalize()
+print("Hello "+name+" "+surname)
