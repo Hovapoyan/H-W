@@ -1,3 +1,4 @@
+//1)Վերցնում է անուն ազգանուն ,արտածում մեծատառով սկսվող փոքրատառով  անուն ազգանուն
 name=input("please enter your first name")
 name=name.lower()
 name=name.capitalize()
