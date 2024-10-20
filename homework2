@@ -36,3 +36,24 @@ a.sort()
 print(a)
 a=str(a)
 print(type(a))
+
+
+//5) Dictionaries
+pers1={"name":"Karen",
+       "last_name":"Malkhasyan",
+       "age":19,
+       "student":False}
+pers2={"name":"Henrik",
+       "last_name":"Malkhasyan",
+       "age":17,
+       "student":False}
+pers3={"name":"Norayr",
+       "last_name":"Sargsyan",
+       "age":20,
+       "student":True}
+dic={"Gyumri":pers1,
+     "Hatsik":pers2,
+     "Alaverdi":pers3}
+for value in dic.values():
+    if value["student"]:
+        print(value["name"]+" "+value["last_name"])
