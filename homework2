@@ -26,4 +26,13 @@ one_week=timedelta(weeks=1)
 d = d-one_week
 print(d)
 
-
+//4)Lists
+a = [2,3,49,"Hello world","45"]
+a.append(0)
+print(len(a))
+print(a[len(a)-1])
+a[3:5]=[]
+a.sort()
+print(a)
+a=str(a)
+print(type(a))
