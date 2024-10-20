@@ -6,3 +6,24 @@ surname=input("please enter your last name")
 surname=surname.lower()
 surname=surname.capitalize()
 print("Hello "+name+" "+surname)
+
+//2)add
+x=int(input("please enter firt number"))
+y=int(input("please enter second number"))
+z=x+y
+print("{x} + {y} = {z}".format(x=x,y=y,z=z))
+
+
+//3)Data
+from datetime import datetime,timedelta
+a=datetime.now()
+print(a)
+one_day = timedelta(days=1)
+print(a-one_day)
+d=input("enter some date (dd/mm/yyyy)")
+d=datetime.strptime(d, '%d/%m/%Y')
+one_week=timedelta(weeks=1)
+d = d-one_week
+print(d)
+
+
