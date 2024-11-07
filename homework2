@@ -61,6 +61,13 @@ for value in dic.values():
 //Տպում է a^b-ի վերջին 2 թվանշանները
 a=int(input("enter number "))
 b=int(input("enter exponent "))
+
+
+a="abc"
+b=""
+for x in range(len(a)-1,-1,-1):
+    b+=a[x]
+print(b)
 c=1
 for x in range(b):
     c=c*a%100
