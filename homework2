@@ -96,3 +96,10 @@ dict={}
 for x in range(1,n+1):
     dict[x]=x*x
 print(dict)
+
+
+a="abc"
+b=""
+for x in range(len(a)-1,-1,-1):
+    b+=a[x]
+print(b)
