@@ -143,6 +143,8 @@ def pop_a(q,lista):
     for i in range(2*q,lista[-1],q):
         if i in lista:
             lista.remove(i)
+        if i+q==lista[-1] in lista:
+            lista.remove(i+q)
 for x in a:
     pop_a(x,a)
 print(a)
