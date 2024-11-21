@@ -146,3 +146,28 @@ def pop_a(q,lista):
 for x in a:
     pop_a(x,a)
 print(a)
+
+
+//Mobius function
+a=6
+b=a
+k=0
+i=2
+z="q"
+while i<=a:
+    if i*i==a:
+        print(0)
+        z=1
+        break
+    elif b%i==0:
+        b=b/i
+        k+=1
+    else:
+        i+=1
+    if b==1:
+        break
+
+if k%2==0 and z=="q":
+    print(1)
+elif k%2==1 and z=="q":
+    print(-1)
